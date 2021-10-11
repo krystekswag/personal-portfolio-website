@@ -44,6 +44,7 @@
     #header{
         background-color: #f1f1f1;
         height: 70px;
+        border-bottom: 1px solid #ebeaea;
         width: 100%;
     }
     .container{
