@@ -2,12 +2,14 @@
   <div>
     <Preload v-if="ready"/>
     <MainPage />
+    <About />
   </div>
 </template>
 
 <script>
 import Preload from './views/Preload.vue';
 import MainPage from './views/Main-page.vue';
+import About from './views/About.vue';
 import debounce from 'lodash.debounce';
 
 export default {
@@ -20,6 +22,7 @@ export default {
   components: {
     MainPage,
     Preload,
+    About,
   },
   mounted(){
     this.hidePreload();

@@ -3,7 +3,15 @@
         <div class="container">
             <div class="logo-wrapper">
                 <a href="/">
-                    <img :src="logo" alt="logo" class="logo" @mouseover="logo='https://i.ibb.co/kq7DWjD/logo-hover.png'" @mouseout="logo='https://i.ibb.co/DRWchJY/logo.png'">
+                    <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 400 252.04" style="enable-background:new 0 0 400 252.04;" xml:space="preserve">
+                    <g>
+                        <polyline class="st0" points="266.6,223.32 224.89,236.79 171.09,135.92 271.87,1.31 280.16,52.04 213.48,134.54 	"/>
+                        <polyline class="st0" points="299.81,28.72 341.52,15.25 395.32,116.12 294.54,250.73 286.25,200 352.93,117.5 	"/>
+                        <polygon class="st0" points="170.51,28.34 109.68,246.85 149.27,232.91 207.45,19.13 	"/>
+                        <polyline class="st0" points="100.19,223.32 58.48,236.79 4.68,135.92 105.46,1.31 113.75,52.04 47.07,134.54 	"/>
+                    </g>
+                    </svg>
                 </a>
             </div>
             <div class="nav-wrapper">
@@ -34,7 +42,7 @@
         name: 'Header',
         data(){
             return{
-                logo: "https://i.ibb.co/DRWchJY/logo.png",
+                
             }
         },
     }
@@ -51,6 +59,14 @@
         height: 100%;
         display: flex;
         align-items: center;
+    }
+    #logo{
+        fill: #333333;
+        width: 45px;
+        height: 28px;
+    }
+    #logo:hover{
+        fill: #ed1a4d;
     }
     .logo-wrapper{
         position: relative;
