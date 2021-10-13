@@ -3,6 +3,8 @@
     <Preload v-if="ready"/>
     <MainPage />
     <About />
+    <Portfolio />
+    <Contact />
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import Preload from './views/Preload.vue';
 import MainPage from './views/Main-page.vue';
 import About from './views/About.vue';
+import Portfolio from './views/Portfolio.vue';
+import Contact from './views/Contact.vue';
 import debounce from 'lodash.debounce';
 
 export default {
@@ -23,6 +27,8 @@ export default {
     MainPage,
     Preload,
     About,
+    Portfolio,
+    Contact,
   },
   mounted(){
     this.hidePreload();
