@@ -46,5 +46,6 @@ export default {
   *{
     margin: 0;
     font-family: 'Bahnschrift', sans-serif;
+    scroll-behavior: smooth;
   }
 </style>

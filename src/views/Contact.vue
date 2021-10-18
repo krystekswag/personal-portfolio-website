@@ -1,7 +1,7 @@
 <template>
     <div class="contact">
         <h1>Contact me</h1>
-        <h2>Phone number: +48 666 354 7744</h2>
+        <h2>Phone number: +48 663 547 744</h2>
         <h2>E-mail: krystekswag@gmail.com</h2>
         <Footer />
     </div>

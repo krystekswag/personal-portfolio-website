@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper" id="portfolio">
         <h1>My projects</h1>
         <div class="projects-wrapper">
             <Projects />
@@ -30,6 +30,6 @@ import Projects from '@/components/Portfolio-projects.vue';
         min-height: 100vh;
         height: auto;
         width: 100%;
-        padding-bottom: 100px;
+        padding: 100px 0;
     }
 </style>

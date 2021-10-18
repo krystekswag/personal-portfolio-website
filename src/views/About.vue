@@ -1,5 +1,5 @@
 <template>
-    <div class="content-wrapper">
+    <div class="content-wrapper" id="about">
         <MyImg />
         <AboutText />
     </div>
@@ -30,7 +30,7 @@ import Technologies from '@/components/Technologies-text.vue';
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 100px;
+        padding: 100px 0;
     }
     .content-tech{
         width: 100%;
