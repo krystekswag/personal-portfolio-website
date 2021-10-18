@@ -5,7 +5,7 @@
             <h2>Portfolio website</h2>
             <p>App using as my personal portfolio website</p>
             <div class="buttons">
-                <button><a href="">CODE</a></button>
+                <button><a href="https://github.com/krystekswag/personal-portfolio-website" target="_blank">CODE</a></button>
             </div>
         </div>
         <div class="project">
@@ -22,8 +22,7 @@
             <h2>Calculator days app</h2>
             <p>App calculate days beetween two dates</p>
             <div class="buttons">
-                <button><a href="">LIVE</a></button>
-                <button><a href="">CODE</a></button>
+                <button><a href="https://github.com/krystekswag/How-many-days-calculator" target="_blank">CODE</a></button>
             </div>
         </div>
         <div class="project">
@@ -31,8 +30,8 @@
             <h2>Piggybank app</h2>
             <p>App store information about money in our piggybank</p>
             <div class="buttons">
-                <button><a href="">LIVE</a></button>
-                <button><a href="">CODE</a></button>
+                <button><a href="https://loving-fermi-d3e453.netlify.app/" target="_blank">LIVE</a></button>
+                <button><a href="https://github.com/krystekswag/PIGGYBANK" target="_blank">CODE</a></button>
             </div>
         </div>
     </div>
@@ -87,6 +86,7 @@
     .buttons button a{
         text-decoration: none;
         color: #f1f1f1;
+        padding: 10px 25px;
     }
     .buttons button:hover{
         background-color: #ed1a4d;
