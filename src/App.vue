@@ -1,10 +1,10 @@
 <template>
   <div>
     <Preload v-if="ready"/>
-    <MainPage />
-    <About />
-    <Portfolio />
-    <Contact />
+    <MainPage v-if="!ready"/>
+    <About v-if="!ready"/>
+    <Portfolio v-if="!ready"/>
+    <Contact v-if="!ready"/>
   </div>
 </template>
 
@@ -47,5 +47,8 @@ export default {
     margin: 0;
     font-family: 'Bahnschrift', sans-serif;
     scroll-behavior: smooth;
+  }
+  body{
+    background-color: #f1f1f1;
   }
 </style>

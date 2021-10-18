@@ -1,5 +1,5 @@
 <template>
-    <div class="contact">
+    <div id="contact">
         <h1>Contact me</h1>
         <h2>Phone number: +48 663 547 744</h2>
         <h2>E-mail: krystekswag@gmail.com</h2>
@@ -28,7 +28,7 @@ import Footer from '@/components/Footer.vue';
         color: #333333;
         margin-bottom: 25px;
     }
-    .contact{
+    #contact{
         text-align: center;
         background-color: #f1f1f1;
         height: auto;

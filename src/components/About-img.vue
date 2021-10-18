@@ -1,5 +1,5 @@
 <template>
-    <div class="content-wrapper">
+    <div class="content-wrapper" id="avatar-img">
         <img src="@/assets/profile-photo.png" alt="my photo">
         <div class="border-img"></div>
     </div>

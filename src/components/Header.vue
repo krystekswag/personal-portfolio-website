@@ -16,8 +16,8 @@
             </div>
             <div class="nav-wrapper">
                 <ul>
-                    <li><a href="#about">About me</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="social-wrapper">
@@ -50,6 +50,7 @@
         border-bottom: 1px solid #ebeaea;
         width: 100%;
         position: fixed;
+        z-index: 4;
     }
     .container{
         height: 100%;

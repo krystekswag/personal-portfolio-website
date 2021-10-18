@@ -13,7 +13,7 @@ import Projects from '@/components/Portfolio-projects.vue';
         name: 'Portfolio',
         components: {
             Projects,
-        }
+        },
     }
 </script>
 
