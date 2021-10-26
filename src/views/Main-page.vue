@@ -39,13 +39,22 @@ import MainImg from '@/components/Main-img.vue';
         align-items: center;
         animation: displayContent 1s;
     }
-      @keyframes displayContent{
-    0%{
-      transform: skew(0deg, 5deg) rotate(5deg) translate(0px, 800px);
-      opacity: 0;
+    @keyframes displayContent{
+        0%{
+            transform: skew(0deg, 5deg) rotate(5deg) translate(0px, 800px);
+            opacity: 0;
+        }
+        100%{
+            transform: skew(0deg, 0deg) rotate(0deg) translate(0px, 0px);
     }
-    100%{
-      transform: skew(0deg, 0deg) rotate(0deg) translate(0px, 0px);
     }
-  }
+    @media only screen and (max-width: 705px){
+        .content-wrapper{
+            padding-top: 50px;
+            height: 40vh;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
 </style>
