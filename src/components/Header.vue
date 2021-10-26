@@ -65,13 +65,16 @@
                 })
             },
             hideMenu(){
+                const windowWidth = window.matchMedia( "(max-width: 705px)" );
                 const menu = document.getElementById("navigation");
-                const links = document.querySelectorAll(".nav-link");
-                    links.forEach((e)=>{
-                        e.addEventListener('click', function(){
-                            menu.style.display = "none";
+                if(windowWidth.matches){
+                    const links = document.querySelectorAll(".nav-link");
+                        links.forEach((e)=>{
+                            e.addEventListener('click', function(){
+                                menu.style.display = "none";
+                            })
                         })
-                    })
+                }
             }
         }
     }

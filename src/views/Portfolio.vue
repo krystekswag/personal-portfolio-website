@@ -30,6 +30,7 @@ import Projects from '@/components/Portfolio-projects.vue';
         height: auto;
         width: 100%;
         padding: 50px 0;
+        scroll-margin-top: 70px;
     }
     @media only screen and (max-width: 1250px){
         h2{
