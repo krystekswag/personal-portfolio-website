@@ -54,4 +54,15 @@ import Technologies from '@/components/Technologies-text.vue';
       transform: skew(0deg, 0deg) rotate(0deg) translate(0px, 0px);
     }
   }
+    @media only screen and (max-width: 1250px){
+        .content-wrapper{
+            padding: 30px 0px;
+        }
+    }
+    @media only screen and (max-width: 705px){
+        .content-wrapper{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
 </style>

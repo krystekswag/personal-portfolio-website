@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper" id="portfolio">
-        <h1>My projects</h1>
+        <h2>My projects</h2>
         <div class="projects-wrapper">
             <Projects />
         </div>
@@ -18,7 +18,7 @@ import Projects from '@/components/Portfolio-projects.vue';
 </script>
 
 <style lang="scss" scoped>
-    h1{
+    h2{
         text-align: center;
         font-size: 55px;
         padding: 10px;
@@ -27,9 +27,18 @@ import Projects from '@/components/Portfolio-projects.vue';
     }
     .wrapper{
         background-color: #f1f1f1;
-        min-height: 100vh;
         height: auto;
         width: 100%;
-        padding: 100px 0;
+        padding: 50px 0;
+    }
+    @media only screen and (max-width: 1250px){
+        h2{
+            font-size: 45px;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        .wrapper{
+            padding: 40px 0;
+        }
     }
 </style>

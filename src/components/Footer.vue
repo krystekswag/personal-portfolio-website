@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <h3>Copyright © 2021 Krystian Motyl / krystekswag. All Rights Reserved.</h3>
+        <p>Copyright © 2021 Krystian Motyl / krystekswag. All Rights Reserved.</p>
     </div>
 </template>
 
@@ -20,8 +20,8 @@
         align-items: center;
         justify-content: center;
     }
-    h3{
-        font-size: 12px;
+    p{
+        font-size: 11px;
         font-weight: 400;
     }
 </style>
