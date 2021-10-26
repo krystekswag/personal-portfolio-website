@@ -1,6 +1,6 @@
 <template>
     <div>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" alt="HTML icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	viewBox="0 0 56.7 56.7" style="enable-background:new 0 0 56.7 56.7;" xml:space="preserve">
 <g>
 	<path d="M3.4,0l4.5,51l20.4,5.7L48.8,51l4.5-51C53.4,0,3.4,0,3.4,0z M43.5,16.8H28.3h-8.8l0.6,6.5h8.3h14.5l-1.7,19.2l-12.8,3.5

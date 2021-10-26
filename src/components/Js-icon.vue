@@ -1,6 +1,6 @@
 <template>
     <div>
-<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" alt="JavaScript icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <path d="M0,0v517h517V0H0z M281.3,403.3c0,50.4-29.6,73.3-72.6,73.3c-38.9,0-61.4-20.1-72.9-44.4l39.6-23.9
 	c7.6,13.5,14.5,25,31.2,25c16,0,26.1-6.2,26.1-30.6V237.4h48.6v165.9H281.3z M396.3,476.5c-45.1,0-74.3-21.5-88.6-49.7l39.6-22.8

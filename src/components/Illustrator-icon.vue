@@ -1,6 +1,6 @@
 <template>
     <div>
-<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" alt="Illustrator icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
 	<path class="st0" d="M206.6,152c-5,25.5-18.6,69.1-28.6,105.1h58.5c-6.6-25.9-22.9-78-29.6-105.1H206.6z"/>

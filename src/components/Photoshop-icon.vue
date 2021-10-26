@@ -1,6 +1,6 @@
 <template>
     <div>
-<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" alt="Photoshop icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
 	<path class="st0" d="M176.6,145.3c-13,0-22.2,0.3-25,0.8v91.3c2.6,0.3,7.7,0.8,21.6,0.8c26.3,0,51.5-7.5,51.5-46.1

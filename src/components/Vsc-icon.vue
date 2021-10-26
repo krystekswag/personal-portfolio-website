@@ -1,6 +1,6 @@
 <template>
     <div>
-<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" alt="Visual studio code icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="_x31_0">
 	<path d="M30.7,4.6l-7.4-4.4c0,0,0,0-0.1,0c-0.5-0.2-1.1-0.2-1.5,0.2L11.4,11.5L5.6,6.2C5.3,5.9,4.8,5.8,4.3,6.1l-3,1.5
