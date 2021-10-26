@@ -1,12 +1,16 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router';
+import NotFoundComponent from '@/404.vue';
 
-const routes = [
-
-]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes: [
+    { 
+      path: '/:catchAll(.*)', 
+      component: NotFoundComponent,
+      name: 'NotFound'
+    }
+  ]
 })
 
 export default router
