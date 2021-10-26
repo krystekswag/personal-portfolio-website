@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+	<style type="text/css">
+		.icon{
+			fill: #333333;
+		}
+		@media (prefers-color-scheme: dark){
+			.icon{
+				fill: #ed1a4d;
+			}
+		}
+	</style>
+<polygon class="icon" points="54.22,13.22 52.06,0 27.66,32.58 35.27,4.65 25.64,7.05 9.78,64 20.1,60.37 26.58,36.57 39.81,61.38 
+	50.68,57.87 36.84,34.73 "/>
+</svg>
