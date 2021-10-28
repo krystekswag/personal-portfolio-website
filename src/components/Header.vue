@@ -3,7 +3,7 @@
         <div class="container">
             <div class="logo-wrapper">
                 <a href="#">
-                    <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <svg version="1.1" id="logo" alt="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 400 252.04" style="enable-background:new 0 0 400 252.04;" xml:space="preserve">
                     <g>
                         <polyline class="st0" points="266.6,223.32 224.89,236.79 171.09,135.92 271.87,1.31 280.16,52.04 213.48,134.54 	"/>
@@ -16,8 +16,8 @@
             </div>
             <div class="nav-wrapper" id="navigation">
                 <ul>
-                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><router-link class="nav-link" :to="{ name: 'Portfolio', path: '/', hash: '#portfolio' }">Portfolio</router-link></li>
+                    <li><router-link class="nav-link" :to="{ name: 'Contact', path: '/', hash: '#contact' }">Contact</router-link></li>
                 </ul>
             </div>
             <div class="social-wrapper">
@@ -116,7 +116,7 @@
         width: calc(100% / 3);
     }
     .logo-wrapper a{
-        margin-left: 35%;
+        margin-left: 12rem;
     }
     .nav-wrapper{
         display: inline-block;
@@ -129,16 +129,19 @@
     }
     .social-wrapper ul{
         float: right;
-        margin-right: 35%;
+        margin-right: 12rem;
+    }
+    .nav-wrapper ul, .social-wrapper ul{
+        padding: 0;
     }
     .nav-wrapper ul li, .social-wrapper ul li{
         display: inline;
-        padding: 5px 20px;
+        padding: 1rem 1rem;
     }
     .nav-wrapper ul li a, .social-wrapper ul li a{
         text-decoration: none;
         color: #333333;
-        font-size: 18px;
+        font-size: 1.2rem;
     }
     .social-wrapper{
         display: inline-block;
@@ -149,19 +152,19 @@
         height: 30px;
         width: 30px;
     }
-    .hamburger{
+    .hamburger, #hamburger{
         display: none;
     }
     @media only screen and (max-width: 1250px){
         .nav-wrapper ul li, .social-wrapper ul li{
-            padding: 5px 7px;
+            padding: 5rem .4rem;
         }
         .logo-wrapper a{
-            margin-left: 20%;
+            margin-left: 5rem;
         }
         .social-wrapper ul{
             float: right;
-            margin-right: 20%;
+            margin-right: 5rem;
         }
     }
     @media only screen and (max-width: 705px){
@@ -178,7 +181,7 @@
             float: right;
             margin-right: 20%;
         }
-        .hamburger{
+        .hamburger, #hamburger{
             display: block;
         }
         #mobile-hamburger{
@@ -196,7 +199,7 @@
         }
         .nav-wrapper ul li a{
             color: #f1f1f1;
-            font-size: 22px;
+            font-size: 1.4rem;
         }
         .nav-wrapper ul{
             padding: 0;
@@ -206,6 +209,7 @@
         }
         .nav-wrapper ul li, .social-wrapper ul li{
             display: block;
+            padding: .4rem;
         }
         @keyframes displayContent{
             0%{
