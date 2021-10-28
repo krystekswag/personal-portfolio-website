@@ -82,6 +82,7 @@ import VueIcon from '@/components/Vue-icon.vue';
         margin: 1rem 0;
     }
     .icons{
+        margin: 0 auto;
         height: 100px;
         width: 100px;
         fill: #333333;

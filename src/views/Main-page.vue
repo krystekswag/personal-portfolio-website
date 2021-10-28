@@ -49,7 +49,8 @@ import MainImg from '@/components/Main-img.vue';
     }
     @media only screen and (max-width: 705px){
         .content-wrapper{
-            height: 50vh;
+            padding: 6rem 0 6rem 0;
+            height: auto;
             flex-direction: column;
             text-align: center;
         }

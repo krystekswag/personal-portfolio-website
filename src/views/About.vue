@@ -34,7 +34,7 @@ import Technologies from '@/components/Technologies-text.vue';
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 50px 0;
+        padding: 2rem 0;
     }
     .show{
         display: none;
@@ -56,7 +56,8 @@ import Technologies from '@/components/Technologies-text.vue';
   }
     @media only screen and (max-width: 1250px){
         .content-wrapper{
-            padding: 30px 0px;
+            height: auto;
+            padding: 1rem 0;
         }
     }
     @media only screen and (max-width: 705px){

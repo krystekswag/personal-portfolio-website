@@ -28,12 +28,15 @@ import Projects from '@/components/Portfolio-projects.vue';
         background-color: #f1f1f1;
         height: auto;
         width: 100%;
-        padding: 50px 0;
+        padding: 2rem 0;
     }
     @media only screen and (max-width: 1250px){
         h2{
             font-size: 2.5rem;
             padding-bottom: 1rem;
+        }
+        .wrapper{
+            padding: 1rem 0;
         }
     }
     @media only screen and (max-width: 705px){
