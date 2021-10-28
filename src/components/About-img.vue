@@ -40,8 +40,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 20%;
-        margin-right: 5%;
+        margin-left: 12rem;
+        margin-right: 2rem;
     }
     @media only screen and (max-width: 1250px){
         img{
@@ -56,13 +56,19 @@
             border: 3px solid #333333;
         }
         .content-wrapper{
-            margin-left: 5%;
-            margin-right: 2%;
+            margin-left: 5rem;
+            margin-right: 2rem;
         }
     }
     @media only screen and (max-width: 705px){
         .content-wrapper{
             margin: 0;
+        }
+    }
+    @media only screen and (max-width: 480px){
+        img, .border-img{
+            width: 80px;
+            height: 80px;
         }
     }
 </style>

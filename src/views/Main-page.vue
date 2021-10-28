@@ -25,7 +25,6 @@ import MainImg from '@/components/Main-img.vue';
 <style lang="scss" scoped>
     *{
         margin: 0;
-        font-family: 'Roboto', sans-serif;
     }
     #main-page{
         background-color: #f1f1f1;
@@ -50,8 +49,7 @@ import MainImg from '@/components/Main-img.vue';
     }
     @media only screen and (max-width: 705px){
         .content-wrapper{
-            padding-top: 50px;
-            height: 40vh;
+            height: 50vh;
             flex-direction: column;
             text-align: center;
         }

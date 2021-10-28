@@ -19,9 +19,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 1rem;
     }
     p{
-        font-size: 11px;
-        font-weight: 400;
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    @media only screen and (max-width: 350px){
+        p{
+            font-size: 0.5rem;
+        }
     }
 </style>

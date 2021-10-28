@@ -17,34 +17,47 @@
         color: #333333;
     }
     .about-text{
-        margin-right: 20%;
-        margin-bottom: 8%;
+        margin-left: 1rem;
+        margin-right: 12rem;
+        margin-bottom: 5rem;
     }
     h2{
-        font-size: 55px;
-        margin-bottom: 55px;
+        font-size: 3rem;
+        margin-bottom: 2rem;
     }
     h2 span{
         color: #ed1a4d;
     }
     p{
-        font-size: 25px;
+        font-size: 1.5rem;
     }
     @media only screen and (max-width: 1250px){
+        .about-text{
+            margin-right: 6rem;
+            margin-bottom: 5rem;
+        }
         h2{
-            font-size: 45px;
-            margin-bottom: 30px;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
         }
         p{
-            font-size: 17px;
-        }
-        .about-text{
-            margin-right: 5%;
+            font-size: 1rem;
         }
     }
     @media only screen and (max-width: 705px){
         .about-text{
-            margin: 0 10%;
+            margin: 1rem 3rem;
+        }
+        h2{
+            font-size: 1.8rem;
+        }
+    }
+    @media only screen and (max-width: 480px){
+        h2{
+            font-size: 1.3rem;
+        }
+        p{
+            font-size: 0.8rem;
         }
     }
 </style>

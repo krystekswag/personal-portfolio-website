@@ -20,9 +20,8 @@ import Projects from '@/components/Portfolio-projects.vue';
 <style lang="scss" scoped>
     h2{
         text-align: center;
-        font-size: 55px;
-        padding: 10px;
-        margin-bottom: 20px;
+        font-size: 3rem;
+        padding-bottom: 2rem;
         color: #333333;
     }
     .wrapper{
@@ -30,16 +29,22 @@ import Projects from '@/components/Portfolio-projects.vue';
         height: auto;
         width: 100%;
         padding: 50px 0;
-        scroll-margin-top: 70px;
     }
     @media only screen and (max-width: 1250px){
         h2{
-            font-size: 45px;
-            margin-bottom: 10px;
-            padding: 5px;
+            font-size: 2.5rem;
+            padding-bottom: 1rem;
         }
-        .wrapper{
-            padding: 40px 0;
+    }
+    @media only screen and (max-width: 705px){
+        h2{
+            font-size: 1.8rem;
+            padding-bottom: 0.5rem;
+        }
+    }
+    @media only screen and (max-width: 480px){
+        h2{
+            font-size: 1.3rem;
         }
     }
 </style>

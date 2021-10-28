@@ -47,14 +47,13 @@
     .projects{
         display: flex;
         flex-wrap: wrap;
-        padding: 0 100px;
         flex-direction: row;
         justify-content: center;
     }
     .project{
         max-width: 450px;
         box-shadow: 0px 0px 10px -3px rgba(66, 68, 90, 1);
-        margin: 40px 80px;
+        margin: 4rem 6rem;
         border-radius: 20px;
         padding: 0;
     }
@@ -64,21 +63,20 @@
         height: 250px;
     }
     h3{
-        font-size: 20px;
-        padding: 10px;
-        margin: 0px 10px;
+        font-size: 1.2rem;
+        margin: 0 0.5rem;
         color: #333333;
     }
     p{
         font-size: 14px;
-        padding: 10px;
-        margin: 0px 10px; 
+        margin: 0 0.5rem; 
     }
-    .buttons{
-        padding: 10px;
+    h3, p, .buttons{
+        padding: 0.7rem;
     }
     .buttons button{
-        margin: 10px;
+        margin: 0.5rem;
+        padding: 0;
         width: 100px;
         height: 30px;
         background-color: #333333;
@@ -86,10 +84,13 @@
         cursor: pointer;
     }
     .buttons button a{
-        font-size: 14px;
+        font-size: 0.8rem;
         text-decoration: none;
         color: #f1f1f1;
-        padding: 10px 25px;
+        display: inline-block;
+        width: 100%;
+        line-height: 30px;
+        height: 100%;
     }
     @media only screen and (min-width: 706px){
         .buttons button:hover{
@@ -98,10 +99,10 @@
     }
     @media only screen and (max-width: 1500px){
         .projects{
-            padding: 0 20px;
+            padding: 0 2rem;
         }
         .project{
-            margin: 40px 40px; 
+            margin: 2.2rem 3rem; 
         }
     }
     @media only screen and (max-width: 1250px){
@@ -113,18 +114,18 @@
             height: 187.5px;
         }
         h3{
-            font-size: 16px;
+            font-size: 1rem;
         }
         p{
-            font-size: 12px;
+            font-size: .7rem;
         }
         .buttons button{
             width: 80px;
             height: 25px;
         }
         .buttons button a{
-            font-size: 12px;
-            padding: 8px 18px;
+            font-size: .5rem;
+            line-height: 25px;
         }
     }
     @media only screen and (max-width: 705px){
@@ -134,6 +135,31 @@
         .project img{
             width: 300px;
             height: 167px;
+        }
+    }
+    @media only screen and (max-width: 480px){
+        .project{
+            max-width: 250px;
+        }
+        .project img{
+            width: 250px;
+            height: 140px;
+        }
+        h3, p, .buttons{
+            padding: 0.3rem 0.7rem;
+        }
+        h3{
+            font-size: .8rem;
+        }
+        p{
+            font-size: .5rem;
+        }
+        .buttons button{
+            width: 64px;
+            height: 25px;
+        }
+        .buttons button a{
+            font-size: .4rem;
         }
     }
 </style>

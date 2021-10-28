@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="tech-wrapper">
         <h2>Known technologies and skills</h2>
         <div class="wrapper">
             <div class="wrapper-content">
@@ -64,25 +64,31 @@ import VueIcon from '@/components/Vue-icon.vue';
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin: 20px;
     }
     .wrapper-content{
         text-align: center;
-        padding: 55px 70px;
+        padding: 1.2rem 4rem;
     }
     .wrapper-content p{
-        font-size: 16px;
-        padding: 20px 0;
+        font-size: .9rem;
+        padding: 0.2rem 0;
         white-space: pre-line;
     }
     h2{
         text-align: center;
-        font-size: 55px;
+        font-size: 3rem;
         color: #333333;
+        padding-bottom: 2rem;
+        margin: 1rem 0;
     }
     .icons{
         height: 100px;
         width: 100px;
+        fill: #333333;
+    }
+    .icons-vue{
+        height: 100px;
+        width: 117px;
         fill: #333333;
     }
     @media only screen and (min-width: 706px){
@@ -90,24 +96,16 @@ import VueIcon from '@/components/Vue-icon.vue';
             fill: #ed1a4d;
         }
     }
-    .icons-vue{
-        height: 100px;
-        width: 117px;
-        fill: #333333;
-    }
     @media only screen and (max-width: 1250px){
-        .wrapper{
-            margin: 10px;
-        }
         .wrapper-content{
-            padding: 35px 45px;
+            padding: 1.2rem 3rem;
         }
         .wrapper-content p{
-            font-size: 13px;
-            padding: 10px 0;
+            font-size: .7rem;
         }
         h2{
-            font-size: 45px;
+            font-size: 2.5rem;
+            padding-bottom: 1rem;
         }
         .icons{
             height: 70px;
@@ -120,8 +118,9 @@ import VueIcon from '@/components/Vue-icon.vue';
     }
     @media only screen and (max-width: 705px){
         h2{
-            padding-top: 50px;
-            margin: 0 5%;
+            font-size: 1.8rem;
+            padding-bottom: .8rem;
+            margin: 0 1rem;
         }
         .icons{
             height: 50px;
@@ -132,12 +131,30 @@ import VueIcon from '@/components/Vue-icon.vue';
             width: 57.5px;
         }
         .wrapper-content{
-            text-align: center;
-            padding: 15px 20px;
+            padding: 1.2rem 1.5rem;
         }
         .wrapper-content p{
-            font-size: 9px;
-            padding: 5px 0;
+            font-size: .5rem;
+        }
+    }
+    @media only screen and (max-width: 480px){
+        h2{
+            font-size: 1.3rem;
+            padding-bottom: .5rem;
+        }
+        .icons{
+            height: 30px;
+            width: 30px;
+        }
+        .icons-vue{
+            height: 30px;
+            width: 35px;
+        }
+        .wrapper-content{
+            padding: 1rem 1rem;
+        }
+        .wrapper-content p{
+            font-size: .4rem;
         }
     }
 </style>

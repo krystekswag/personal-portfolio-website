@@ -19,13 +19,13 @@ import Footer from '@/components/Footer.vue';
 
 <style lang="scss" scoped>
     h4{
-        font-size: 55px;
+        font-size: 3rem;
         color: #333333;
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
     }
     p{
-        font-size: 30px;
-        margin-bottom: 25px;
+        font-size: 1.8rem;
+        margin-bottom: .5rem;
     }
     p a{
         text-decoration: none;
@@ -39,12 +39,20 @@ import Footer from '@/components/Footer.vue';
     }
     @media only screen and (max-width: 1250px){
         h4{
-            font-size: 45px;
-            margin-bottom: 10px;
+            font-size: 2.5rem;
+            margin-bottom: .3rem;
         }
         p{
-            font-size: 20px;
-            margin-bottom: 15px;
+            font-size: 1.2rem;
+            margin-bottom: .3rem;
+        }
+    }
+    @media only screen and (max-width: 480px){
+        h4{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
         }
     }
 </style>
